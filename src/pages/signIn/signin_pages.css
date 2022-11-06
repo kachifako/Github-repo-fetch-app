@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.sign-container{
+    border: none;
+    border-radius: 35px 0px;
+    width: fit-content;
+    height: fit-content;
+    margin: 15% auto;
+    padding: 5%;
+    background-color: whitesmoke;
+    box-shadow: 2px 3px 10px grey;
+  }
+  
+  .sign-h3, #signUp{
+   text-align:center;
+    
+  }
+  
+  .sign-h3{
+    color: #5e135e;
+  }
+  
+  label{
+    margin-bottom:0%;
+    color: #5e135e
+  }
+  
+  input{
+    border: 0.1px solid #c5c5d3;
+    border-radius:7px 0px;
+    width: 300px;
+    height: 40px;
+    margin:15px 0px;
+    background-color: #dfdff0;
+  }
+  
+  .sign-submit{
+    border-radius:17px 0px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    margin:5% 10%;
+    font-size: large;
+    font-weight: 700;
+    background-color: rgb(87, 142, 124);
+    color: white;
+  }
+  
+  .sign-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0px 20px;
+    width:80%;
+    height:40px;
+    font-size: large;
+    font-weight: 700;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto 10%;
+  }
+  
+  #signUp{
+    color: #3c5d3c;
+    
+  }
