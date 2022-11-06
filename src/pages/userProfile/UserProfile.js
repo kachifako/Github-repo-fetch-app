@@ -49,7 +49,7 @@ export default function UserProfile(id, name, html_url, avatar_url) {
               <br />
               <a
                 className="profile-link"
-                target="_blank" rel="noreferrer"
+                target="_blank" rel="noopener noreferrer"
                 href="https://twitter.com/pwettykach"
               >
                 Follow me on <span>Twitter</span>

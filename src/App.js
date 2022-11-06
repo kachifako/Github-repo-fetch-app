@@ -3,7 +3,6 @@ import "./App.css";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import RepoList from "./pages/repoList/RepoList";
-import SingleRepo from "./pages/singleRepo/SingleRepo";
 import Home from "./pages/home/Home";
 import ErrorPage from "./pages/errorPage/ErrorPage";
 import SignInPage from "./pages/signIn/SignInPage";
@@ -19,13 +18,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="signin" element={<SignInPage />} />
-
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/userprofile" element={<UserProfile />} />
-          <Route path="/repolist">
-            <Route index element={<RepoList />} />
-            <Route path=":singlerepo" element={<SingleRepo />} />
-          </Route>
+          <Route path="/repolist" element={<RepoList />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </div>
